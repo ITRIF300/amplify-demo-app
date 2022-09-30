@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       
-      <h1>Workout Data</h1>
+      <h1>Workout Data </h1>
       <TableauEmbed />
       
     </div>
