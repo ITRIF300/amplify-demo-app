@@ -5,13 +5,13 @@ import TableauEmbed from './components/TableauEmbed'
 
 import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react'
 
-function App() {
+function App({signOut, user}){
   return (
     <div className="App">
       
       <h1>Workout Data</h1>
       <TableauEmbed />
-      
+      <button onClick={signOut}> Sign Out </button>
     </div>
   );
 }
