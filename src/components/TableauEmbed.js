@@ -21,8 +21,7 @@ function TableauEmbed(){
 
 
     return(
-        <div>
-            <p>Dashboard</p>
+        <div>            
             <div ref={ref.current}> </div>
         </div>
         );
