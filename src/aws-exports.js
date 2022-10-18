@@ -25,7 +25,14 @@ const awsmobile = {
         "EMAIL"
     ],
     "aws_user_files_s3_bucket": "amplify-demo-app-storage-305520c974407-staging",
-    "aws_user_files_s3_bucket_region": "ap-northeast-1"
+    "aws_user_files_s3_bucket_region": "ap-northeast-1",
+    "aws_cloud_logic_custom": [
+        {
+            "name": "api87852c45",
+            "endpoint": "https://a58uat6z9d.execute-api.ap-northeast-1.amazonaws.com/staging",
+            "region": "ap-northeast-1"
+        }
+    ]
 };
 
 
