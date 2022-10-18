@@ -9,9 +9,9 @@ function App({signOut, user}){
   return (
     <div className="App">
       
-      <h1>Workout Data</h1>
+
       <TableauEmbed />
-      <button onClick={signOut}> Sign Out </button>
+      
     </div>
   );
 }
@@ -19,3 +19,6 @@ function App({signOut, user}){
 //export default App;
 export default withAuthenticator(App);
 //<AmplifySignOut />
+
+//<h1>Workout Data</h1>
+//<button onClick={signOut}> Sign Out </button>
