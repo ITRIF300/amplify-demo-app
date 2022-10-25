@@ -6,8 +6,8 @@ function TableauEmbed(){
     const ref = useRef(null);
     const url = "https://prod-apnortheast-a.online.tableau.com/t/itrif300/views/wellshima/sheet0?:showAppBanner=false&:display_count=n&:showVizHome=n&:origin=viz_share_link";
     const options = {        
-        width: "1600px",
-        height: "800px",
+        width: "1300px",
+        height: "900px",
     };
 
     function initViz() {
